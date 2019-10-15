@@ -3,6 +3,7 @@ import React, { useState } from 'react';
 import { fetchPhotos } from '../../services/flickr.service';
 import Photo from '../Photo/Photo';
 import Search from '../Search/Search';
+import Loading from '../Loading/Loading';
 import './App.css';
 
 const App = () => {
@@ -50,7 +51,7 @@ const App = () => {
             <Search onSearch={searchPhotos} />
             <div className="photoStream columns is-multiline">
               {isLoading
-                ? " Loading ... "
+                ? <Loading />
                 : renderPhotos()
               }
             </div>
