@@ -1,0 +1,23 @@
+.photo {
+  padding: 1rem 1.5rem;
+  border: 1px solid lightslategray;
+  border-radius: 12px;
+}
+
+.photo figure {
+  min-height: 100px;
+}
+
+.photo_headline {
+  max-width: 100%;
+  margin-bottom: .5rem;
+}
+
+.photo_title {
+  font-size: 1.2rem;
+
+  text-overflow: ellipsis;
+  word-wrap: break-word;
+  overflow: hidden;
+  white-space: nowrap;
+}
