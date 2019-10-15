@@ -38,7 +38,7 @@ const App = () => {
 
       <header >          
           <div className="container">
-            <h2 className="title">
+            <h2 className="title has-text-centered has-text-primary">
               Flickr Image Search
             </h2>
           </div>

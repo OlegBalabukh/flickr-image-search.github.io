@@ -1,6 +1,8 @@
 import React from 'react';
 import debounce from 'lodash.debounce';
 
+import './Search.css';
+
 const Search = ({ onSearch }) => {
   const inputRef = React.createRef();
   
@@ -13,7 +15,7 @@ const Search = ({ onSearch }) => {
   
   return (
     <div className="search content">
-      <p>Find image by tags:</p>
+      <p className="has-text-info">Find image by tags:</p>
       <div className="field">
         <div className="control">
           <input
