@@ -8,7 +8,7 @@ const Photo = ({ photo }) => {
 
       <div className="photo_headline">
         <a href={ photo.photoURL } target="_blank">
-          <h4 className="photo_title">{ photo.title || 'Unknown' }</h4>
+          <h4 className="photo_title has-text-link">{ photo.title || 'Unknown' }</h4>
         </a>
       </div>
 
